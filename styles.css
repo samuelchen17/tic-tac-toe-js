@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}
+
+.gameCell {
+  border: 1px solid black;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
